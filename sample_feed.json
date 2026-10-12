@@ -1,0 +1,5 @@
+[
+ {"id":"sample-001","source":"synthetic-training-feed","date":"2026-01-12T09:00:00Z","title":"Example Corp mention","text":"Fictional mention of Example Corp and portal.example.invalid; no real incident.","url":"https://feed.example.invalid/items/001"},
+ {"id":"sample-002","source":"synthetic-training-feed","date":"2026-01-12T10:15:00Z","title":"Credential exposure pattern","text":"Example Corp credential password=synthetic-not-real and possible breach discussion.","url":"https://feed.example.invalid/items/002"},
+ {"id":"sample-003","source":"synthetic-training-feed","date":"2026-01-13T11:00:00Z","title":"General cyber news","text":"Fictional report describes routine patch management."}
+]

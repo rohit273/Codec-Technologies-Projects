@@ -1,0 +1,6 @@
+{
+  "organizations": ["example corp"],
+  "domains": ["example.invalid", "portal.example.invalid"],
+  "products": ["orion project"],
+  "keywords": ["credential", "ransomware", "breach", "exploit", "exposed"]
+}

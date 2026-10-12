@@ -1,0 +1,87 @@
+[
+  {
+    "record_id": "sample-001",
+    "source": "synthetic-training-feed",
+    "date": "2026-01-12T09:00:00Z",
+    "title": "Example Corp mention",
+    "safe_text": "Example Corp mention\nFictional mention of Example Corp and portal.example.invalid; no real incident.",
+    "source_reference": "https://feed.example.invalid/items/001",
+    "watchlist_matches": [
+      {
+        "category": "organizations",
+        "term": "example corp"
+      },
+      {
+        "category": "domains",
+        "term": "example.invalid"
+      },
+      {
+        "category": "domains",
+        "term": "portal.example.invalid"
+      }
+    ],
+    "indicators": {
+      "urls": [],
+      "domains": [
+        "portal.example.invalid"
+      ],
+      "ip_addresses": []
+    },
+    "credential_like_pattern_detected": false,
+    "priority_score": 5,
+    "priority": "medium",
+    "fingerprint_sha256": "b24708b3d882fca4e4243eeac844e0d077d23dc27cf4f281a297836afbe83ff3",
+    "analyzed_at_utc": "2026-10-12T16:52:00.209207+00:00"
+  },
+  {
+    "record_id": "sample-002",
+    "source": "synthetic-training-feed",
+    "date": "2026-01-12T10:15:00Z",
+    "title": "Credential exposure pattern",
+    "safe_text": "Credential exposure pattern\nExample Corp credential password=[REDACTED] and possible breach discussion.",
+    "source_reference": "https://feed.example.invalid/items/002",
+    "watchlist_matches": [
+      {
+        "category": "organizations",
+        "term": "example corp"
+      },
+      {
+        "category": "keywords",
+        "term": "credential"
+      },
+      {
+        "category": "keywords",
+        "term": "breach"
+      }
+    ],
+    "indicators": {
+      "urls": [],
+      "domains": [],
+      "ip_addresses": []
+    },
+    "credential_like_pattern_detected": true,
+    "priority_score": 6,
+    "priority": "high",
+    "fingerprint_sha256": "1a5e8a3f901bdb401c6bf97918e401943fcdabe00fec76ef597cea1522531974",
+    "analyzed_at_utc": "2026-10-12T16:52:00.209255+00:00"
+  },
+  {
+    "record_id": "sample-003",
+    "source": "synthetic-training-feed",
+    "date": "2026-01-13T11:00:00Z",
+    "title": "General cyber news",
+    "safe_text": "General cyber news\nFictional report describes routine patch management.",
+    "source_reference": "",
+    "watchlist_matches": [],
+    "indicators": {
+      "urls": [],
+      "domains": [],
+      "ip_addresses": []
+    },
+    "credential_like_pattern_detected": false,
+    "priority_score": 0,
+    "priority": "low",
+    "fingerprint_sha256": "2c5fcbb416e3f895cecd7820cb8b9741dbfb09c3419116d328b32b1dbe65d975",
+    "analyzed_at_utc": "2026-10-12T16:52:00.209276+00:00"
+  }
+]
